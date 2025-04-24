@@ -85,3 +85,11 @@ if st.button("Submit"):
 
     generate_word_report(csv_path=csv_path, output_path=word_path)
     st.success("✅ Your response has been recorded!")
+
+    with open(word_path, "rb") as f:
+        st.download_button(
+            label="Download Survey Report",
+            data=f,
+            file_name=word_path,
+            mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        )
