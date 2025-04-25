@@ -1,0 +1,783 @@
+[Dropdown1]
+question = What Type of Endpoint do you use?
+options = 
+    CrowdStrike	Falcon Control and Respond Tier *
+    CrowdStrike	Cloud Runtime Protection - On Demand
+    CrowdStrike	CWP Reserved License - Falcon Sensor
+    CrowdStrike	CWP Reserved License - Falcon Sensor - Tier *
+    CrowdStrike	CWP Reserved License - LUMOS Sensor
+    CrowdStrike	CWP Reserved License - LUMOS Sensor - Tier *
+    CrowdStrike	CWP On Demand - Falcon Sensor - Flex Bundle
+    CrowdStrike	CWP On Demand - LUMOS Sensor - Flex Bundle
+    CrowdStrike	CWP Reserved License - Falcon Sensor - Hard Bundle
+    CrowdStrike	CWP Reserved License - Falcon Sensor - Hard Bundle - Tier *
+    CrowdStrike	CWP Reserved License - LUMOS Sensor - Hard Bundle
+    CrowdStrike	CWP Reserved License - LUMOS Sensor - Hard Bundle - Tier *
+    CrowdStrike	CWP On Demand - Falcon Sensor - Hard Bundle
+    CrowdStrike	CWP On Demand - LUMOS Sensor - Hard Bundle
+    CrowdStrike	CWP On Demand Prepayment
+    CrowdStrike	CWP Upgrade Tier *
+    CrowdStrike	Discover for Cloud & Container - On Demand
+    CrowdStrike	Falcon Discover for Cloud & Containers Tier *
+    CrowdStrike	Falcon Device Control - Tier *
+    CrowdStrike	Falcon Discover - (Discovery Solution) - Band *
+    CrowdStrike	Falcon Discover on GovCloud - Band *
+    CrowdStrike	EDR Bundle (Insight + Discover) - Band *
+    CrowdStrike	EPP Advanced (Prevent + Insight + Discover) - Band *
+    CrowdStrike	EPP Advanced (Prevent + Insight + Discover) on GovCloud - Band *
+    CrowdStrike	Falcon Endpoint Protection Elite Bundle - Tier *
+    CrowdStrike	Falcon Endpoint Protection Elite Flexible Bundle - Tier *
+    CrowdStrike	Falcon Endpoint Protection Enterprise Flexible Bundle Tier *
+    CrowdStrike	Falcon Endpoint Protection Enterprise Bundle Tier *
+    CrowdStrike	Falcon Endpoint Protection Premium Flexible Bundle Tier *
+    CrowdStrike	Falcon Endpoint Protection Premium Bundle Tier *
+    CrowdStrike	Falcon Endpoint Protection Pro Flexible Bundle Tier *
+    CrowdStrike	EPP Standard (Prevent + Insight) on GovCloud - Band *
+    CrowdStrike	EPP Standard (Prevent + Insight) - Band *
+    CrowdStrike	Falcon X Premium Elite (25% of annual application total, $67,500 minimum)
+    CrowdStrike	Falcon Complete: Additional CID
+    CrowdStrike	Falcon Complete Subscription - On Demand
+    CrowdStrike	Falcon Complete Upgrade on GovCloud +300 - Tier *
+    CrowdStrike	Falcon Complete Upgrade - Tier *
+    CrowdStrike	Falcon Complete Upgrade on GovCloud <299
+    CrowdStrike	Falcon Complete Upgrade on GovCloud <299 - Tier 1
+    CrowdStrike	Falcon Complete Upgrade
+    CrowdStrike	Falcon Complete Upgrade Tier 1
+    CrowdStrike	Falcon X - On Demand
+    CrowdStrike	Falcon X Application - Tier *
+    CrowdStrike	Falcon for Mobile Extended on Gov Cloud - Tier *
+    CrowdStrike	Falcon for Mobile Extended - Tier *
+    CrowdStrike	Falcon for Mobile Extended Elite on Gov Cloud - Tier *
+    CrowdStrike	Falcon for Mobile Extended Elite - Tier *
+    CrowdStrike	Falcon for Mobile Extended Plus on Gov Cloud - Tier *
+    CrowdStrike	Falcon for Mobile Extended Plus - Tier *
+    CrowdStrike	Falcon for Mobile Extended Select on Gov Cloud - Tier *
+    CrowdStrike	Falcon for Mobile Extended Select - Tier *
+    CrowdStrike	Falcon for Mobile Standard on Gov Cloud - Tier *
+    CrowdStrike	Falcon for Mobile Standard - Tier 9
+    CrowdStrike	Falcon X Embedded Analyst
+    CrowdStrike	Falcon X Premium Application-Band *
+    CrowdStrike	Falcon Complete with Threat Graph Extended Elite on GovCloud +300 - Tier *
+    CrowdStrike	Falcon Complete with Server Threat Graph Extended Elite +300 - Tier *
+    CrowdStrike	Falcon Complete with Threat Graph Extended Elite +300 - Tier *
+    CrowdStrike	Falcon Complete with Threat Graph Extended Select on GovCloud +300 - Tier *
+    CrowdStrike	Falcon Complete with Server Threat Graph Extended Select on GovCloud +300 - Tier *
+    CrowdStrike	Falcon Complete with Server Threat Graph Extended Select +300 - Tier *
+    CrowdStrike	Falcon Complete with Threat Graph Extended Select +300 - Tier 9
+    CrowdStrike	Falcon Complete with Threat Graph Extended Plus on GovCloud +300 - Tier *
+    CrowdStrike	Falcon Complete with Server Threat Graph Extended Plus on GovCloud +300 - Tier *
+    CrowdStrike	Falcon Complete with Server Threat Graph Extended Plus +300 - Tier *
+    CrowdStrike	Falcon Complete w/Threat Graph Extended Plus. <299 - Tier *
+    CrowdStrike	Falcon Complete with Threat Graph Extended on GovCloud +300 - Tier *
+    CrowdStrike	Falcon Complete with Server Threat Graph Extended on GovCloud +300 - Tier 9
+    CrowdStrike	Falcon Complete with Server Threat Graph Extended +300 - Tier *
+    CrowdStrike	Falcon Complete w/Threat Graph Extended. +300 - Tier *
+    CrowdStrike	Falcon Complete with Threat Graph Standard on GovCloud +300 - Tier *
+    CrowdStrike	Falcon Complete with Server Threat Graph Standard on GovCloud +300 - Tier *
+    CrowdStrike	Falcon Complete with Server Threat Graph Standard +300 - Tier *
+    CrowdStrike	Falcon Complete w/Threat Graph Standard. +300 - Tier *
+    CrowdStrike	Falcon Complete with Threat Graph Extended Elite on GovCloud <299 *
+    CrowdStrike	Falcon Complete with Server Threat Graph Extended Elite on GovCloud <299
+    CrowdStrike	Falcon Complete with Server Threat Graph Extended Elite <299
+    CrowdStrike	Falcon Complete with Threat Graph Extended Elite <299
+    CrowdStrike	Falcon Complete with Threat Graph Extended Select on GovCloud <299
+    CrowdStrike	Falcon Complete with Server Threat Graph Extended Select on GovCloud <299
+    CrowdStrike	Falcon Complete with Server Threat Graph Extended Select <299
+    CrowdStrike	Falcon Complete with Threat Graph Extended Select <299
+    CrowdStrike	Falcon Complete with Threat Graph Extended Plus on GovCloud <299
+    CrowdStrike	Falcon Complete with Server Threat Graph Extended Plus on GovCloud <299
+    CrowdStrike	Falcon Complete with Server Threat Graph Extended Plus <299
+    CrowdStrike	Falcon Complete w/Threat Graph Extended Plus. <299
+    CrowdStrike	Falcon Complete with Threat Graph Extended on GovCloud <299
+    CrowdStrike	Falcon Complete with Server Threat Graph Extended on GovCloud <299
+    CrowdStrike	Falcon Complete with Server Threat Graph Extended <299
+    CrowdStrike	Falcon Complete w/Threat Graph Extended. <299
+    CrowdStrike	Falcon Complete with Threat Graph Standard on GovCloud <299
+    CrowdStrike	Falcon Complete with Server Threat Graph Standard on GovCloud <299
+    CrowdStrike	Falcon Complete with Server Threat Graph Standard <299
+    CrowdStrike	Falcon Complete w/Threat Graph Standard. <299
+    CrowdStrike	Falcon Cloud Workload Protection Tier *
+    CrowdStrike	Falcon Data Replicator
+    CrowdStrike	Falcon FileVantage Tier *
+    CrowdStrike	Falcon Firewall Management - On Demand
+    CrowdStrike	Falcon Firewall Management Tier *
+    CrowdStrike	Falcon Forensics with Console
+    CrowdStrike	Falcon Forensics 30 Day 12 Collections Tier *
+    CrowdStrike	Falcon Forensics ** Day ** Collections Tier *
+    CrowdStrike	Falcon Forensics - Falcon Data Replicator
+    CrowdStrike	Falcon Sandbox Full Standalone (On Premise) Sample Size up to * files per month
+    CrowdStrike	Falcon Sandbox Bridge
+    CrowdStrike	Remote Installation and configuration session. Price is per session.
+    CrowdStrike	Falcon Sandbox Full Standalone (On Premise) Sample Size Unlimited
+    CrowdStrike	Falcon Sandbox Private Cloud - Up to * files per month
+    CrowdStrike	Remote SSH access for intallation/upgrades. Price is per hour.
+    CrowdStrike	Falcon X Expansion Pack-* Files/Month
+    CrowdStrike	Falcon X Premium Elite (30% of price of Falcon X Premium)
+    CrowdStrike	Falcon X Premium Elite Dedicated
+    CrowdStrike	Falcon X Premium (up to * employees)
+    CrowdStrike	Falcon X Premium Public Sector (up to * team members)
+    CrowdStrike	Falcon X Premium RFI Pack
+    CrowdStrike	Falcon QuickScan ML - up to * files/month
+    CrowdStrike	Falcon X Recon Up to * Employees
+    CrowdStrike	Falcon X Recon+ Assigned Analyst (Employees) Up to * employees
+    CrowdStrike	Falcon X Recon Up to * Endpoints
+    CrowdStrike	Falcon X Recon+ Assigned Analyst (Endpoints) Up to * endpoints
+    CrowdStrike	Falcon Zero Trust Tier * (per Account)
+    CrowdStrike	Falcon Horizon
+    CrowdStrike	Falcon Horizon - Addon
+    CrowdStrike	Humio Essential Support
+    CrowdStrike	Humio Elite Support
+    CrowdStrike	Humio Express Support
+    CrowdStrike	CrowdStrike Humio Cloud (Daily Ingest Capacity) Tier *
+    CrowdStrike	Humio Cloud for Falcon - 13 month retention (quantity = endpoints) - Tier *
+    CrowdStrike	Humio Cloud For Falcon - 180 day retention Tier *
+    CrowdStrike	Humio Cloud for Falcon - 24 month retention (quantity = endpoints) - Tier *
+    CrowdStrike	Humio Cloud For Falcon - 30 day retention Tier *
+    CrowdStrike	Humio Cloud for Falcon - 36 month retention (quantity = endpoints) - Tier *
+    CrowdStrike	Humio Cloud For Falcon - ** day retention Tier *
+    CrowdStrike	Managed Humio Cloud Tier *
+    CrowdStrike	Managed Humio Cloud SMB
+    CrowdStrike	Managed Humio Cloud Upgrade Tier *
+    CrowdStrike	Humio Platform - 13 month retention
+    CrowdStrike	Humio Platform (180 Day Retention / Daily Ingest Capacity)
+    CrowdStrike	Humio Platform - 24 month retention
+    CrowdStrike	Humio Platform (30 Day Retention / Daily Ingest Capacity)
+    CrowdStrike	Humio Platform (365 Day Retention / Daily Ingest Capacity)
+    CrowdStrike	Humio Platform - 36 month retention
+    CrowdStrike	Humio Platform (60 Day Retention / Daily Ingest Capacity)
+    CrowdStrike	Humio Platform (90 Day Retention / Daily Ingest Capacity)
+    CrowdStrike	CrowdStrike Humio Self Hosted (Unlimited Ingest Capacity)
+    CrowdStrike	CrowdStrike Humio Self Hosted (Daily Ingest Capacity) Tier *
+    CrowdStrike	Humio Self Hosted for Falcon Tier *
+    CrowdStrike	Falcon Identity Threat Detection Tier * (per Account)
+    CrowdStrike	Crowdstrike Falcon Intelligence Expansion Pack - up to * Files/Month
+    CrowdStrike	Falcon Insight (EDR) on GovCloud - Band *
+    CrowdStrike	Falcon Insight (EDR) Application - Tier *
+    CrowdStrike	Falcon Intel Jumpstart
+    CrowdStrike	Crowdstrike Falcon Intelligence - On Demand
+    CrowdStrike	Crowdstrike Falcon Intelligence Application - Tier *
+    CrowdStrike	Crowdstrike Falcon Intelligence Embedded Analyst
+    CrowdStrike	Crowdstrike Falcon Intelligence Premium Application - Tier *
+    CrowdStrike	Crowdstrike Falcon Intelligence Premium Elite Dedicated
+    CrowdStrike	Crowdstrike Falcon Intelligence Premium Public Sector (up to * team members)
+    CrowdStrike	CrowdStrike Falcon Intelligence Premium RFI Pack
+    CrowdStrike	Crowdstrike Falcon Intelligence Recon Up to * Endpoints
+    CrowdStrike	Crowdstrike Falcon Intelligence Recon+ Assigned Analyst (Endpoints) Up to * endpoints
+    CrowdStrike	Identity Threat Protection (Accounts) - Tier *
+    CrowdStrike	Identity Threat Protection Complete Bundle on GovCloud Tier *
+    CrowdStrike	Identity Threat Protection Complete Bundle - Tier *
+    CrowdStrike	Identity Threat Protection Complete Upgrade on GovCloud Tier *
+    CrowdStrike	Identity Threat Protection Complete Upgrade (Accounts) - Tier *
+    CrowdStrike	Overwatch - On Demand
+    CrowdStrike	Falcon Overwatch Service - Band *
+    CrowdStrike	Falcon OverWatch Elite
+    CrowdStrike	Overwatch Elite
+    CrowdStrike	Falcon Overwatch Premium Service - Band *
+    CrowdStrike	Falcon Prevent for Home Use Tier *
+    CrowdStrike	Falcon Prevent (NGAV) Application - Band *
+    CrowdStrike	Falcon Prevent (NGAV) on GovCloud - Band *
+    CrowdStrike	Falcon Sandbox - Up to * files per month
+    CrowdStrike	Falcon Spotlight Application - Tier *
+    CrowdStrike	Falcon Surface - Tier *
+    CrowdStrike	Threat Graph Extended *
+    CrowdStrike	HPS Threat Graph Extended Elite
+    CrowdStrike	Threat Graph Extended Elite on Gov Cloud for Mobile
+    CrowdStrike	Threat Graph Extended Select on Gov Cloud for Mobile
+    CrowdStrike	Threat Graph with Data Replicator Extended Elite
+    CrowdStrike	Threat Graph Extended Elite on GovCloud with Data Replicator
+    CrowdStrike	Server Threat Graph with Data Replicator Extended Elite
+    CrowdStrike	Server Threat Graph Extended Elite on GovCloud with Data Replicator
+    CrowdStrike	Threat Graph with Data Replicator Extended Plus
+    CrowdStrike	Threat Graph Extended Plus on GovCloud with Data Replicator
+    CrowdStrike	Server Threat Graph with Data Replicator Extended Plus
+    CrowdStrike	Server Threat Graph Extended Plus on GovCloud with Data Replicator
+    CrowdStrike	Threat Graph with Data Replicator Extended Select
+    CrowdStrike	Threat Graph Extended Select on GovCloud with Data Replicator
+    CrowdStrike	Server Threat Graph with Data Replicator Extended Select
+    CrowdStrike	Server Threat Graph Extended Select on GovCloud with Data Replicator
+    CrowdStrike	Threat Graph with Data Replicator Extended
+    CrowdStrike	Threat Graph Extended on GovCloud with Data Replicator
+    CrowdStrike	Server Threat Graph with Data Replicator Extended
+    CrowdStrike	Server Threat Graph Extended on GovCloud with Data Replicator
+    CrowdStrike	Threat Graph with Data Replicator Standard
+    CrowdStrike	Threat Graph Standard on GovCloud with Data Replicator
+    CrowdStrike	Server Threat Graph with Data Replicator Standard
+    CrowdStrike	Server Threat Graph Standard on GovCloud with Data Replicator
+    CrowdStrike	Threat Graph Standard on Gov Cloud for Mobile
+    CrowdStrike	Falcon XDR ** Day Retention - Tier *
+    CrowdStrike	Falcon Insight XDR Native Connector, 7 day retention - Tier *
+    CrowdStrike	Falcon Insight XDR Email Connector, 7 day retention - Tier *
+    CrowdStrike	Falcon Insight XDR Firewall Standard Connector, 7 day retention - Tier *
+    CrowdStrike	Falcon Insight XDR Firewall Jumbo Connector, 7 day retention - Tier *
+    CrowdStrike	Falcon Insight XDR Identity/SSO Connector, 7 day retention - Tier *
+    CrowdStrike	Falcon Insight XDR NDR Standard Connector. 7 day retention - Tier *
+    CrowdStrike	Falcon Insight XDR NDR Jumbo Connector, 7 day retention - Tier *
+    CrowdStrike	Falcon Insight XDR SSE (SWG & CASB) Connector, 7 day retention - Tier *
+    CrowdStrike	Falcon Zero Trust Implementation Services
+    CrowdStrike	Falcon X Premium 5 RFI Pack
+    CrowdStrike	Falcon Complete With CWP (Commercial or EU) - Flex - Tier *
+    CrowdStrike	CWP Annual License - Falcon Sensor - Falcon Complete - Tier *
+    CrowdStrike	CWP Annual License - LUMOS Sensor - Falcon Complete - Tier *
+    CrowdStrike	CWP On Demand - Falcon Sensor - Falcon Complete- Flex
+    CrowdStrike	CWP On Demand - LUMOS Sensor - Falcon Complete- Flex
+    CrowdStrike	Falcon Cloud Workload Protection Threat Graph Extended *
+    CrowdStrike	G-Active Attack Assessment for * to * endpoints
+    CrowdStrike	Cloud Security Assessment in support of CrowdStrike Falcon Platform
+    CrowdStrike	Falcon Network Sensors (Corelight)
+    CrowdStrike	CrowdStrike Falcon Certification Program Exam Voucher
+    CrowdStrike	Implementation
+    CrowdStrike	1G Falcon Network Sensor in support of CrowdStrike Falcon Platform and CrowdStrike Falcon Network
+    CrowdStrike	G-1G Falcon Network Sensor
+    CrowdStrike	10G Falcon Network Sensor in support of CrowdStrike Falcon Platform and CrowdStrike Falcon Network
+    CrowdStrike	G-10G Falcon Network Sensor
+    CrowdStrike	G- Gold Standard Services * – * endpoint
+    CrowdStrike	Humio Operational Services - Fixed Price (DOW)
+    CrowdStrike	G-T1 Retainer
+    CrowdStrike	G-T2 Retainer
+    CrowdStrike	G-T3 Retainer
+    CrowdStrike	G-Professional Services- T&M Monthly Billing
+    CrowdStrike	Identity Security Assessment in support of CrowdStrike Falcon Platform
+    CrowdStrike	Virtual Falcon Network Sensor in support of CrowdStrike Falcon Platform and CrowdStrike Falcon Network
+    CrowdStrike	G-Virtual Falcon Network Sensor
+    CrowdStrike	G-Falcon Operational Support - T&M Custom SOW Only
+    CrowdStrike	Services Tools Fees in support of CrowdStrike Falcon Platform and Falcon Forensics Collector
+    CrowdStrike	G-Services Tools Fees
+    CrowdStrike	Cloud Collector Tool in support of CrowdStrike Cloud Security
+    CrowdStrike	CrowdStrike University Annual Subscription
+    CrowdStrike	G-Urgent Incident Response Services
+    CrowdStrike	G-0 to 4,999 endpoints ERS
+    CrowdStrike	G-5,000 + endpoints ERS
+    CrowdStrike	Endpoint Recovery Service (""ERS"")- * to * endpoints - Use of Falcon Platform and Recovery of Compromised Endpoint System (priced per month)
+    CrowdStrike	Platform Deployment & Operational Support in support of CrowdStrike Falcon Platform- Fixed Price
+    CrowdStrike	G-Platform Deployment & Operational Support - Fixed Price
+    CrowdStrike	Operational Resident Services- *
+    CrowdStrike	G- Operational Resident Services- *
+    CrowdStrike	Essential Support- 12% of Net Application Total
+    CrowdStrike	Elite Support
+    CrowdStrike	Express Support
+    CrowdStrike	Falcon MalQuery 100 searches per month
+    Microsoft	Defender Endpoint *
+    Microsoft	Defender O365 P1 GCC Sub Per User
+    Microsoft	Defender Endpoint Server *
+    Microsoft	Defender Endpoint P2 GCCH Sub *
+    Microsoft	M365 G5 Security GCC Sub *
+    Microsoft	M365 G5 Unified GCC w/o WDATP/DCA SU *
+    Microsoft	MD for IoT Agentless-OT Trl Trl Cmt Dvc-1K/Mo *
+    Microsoft	MD for IoT Agentless-OT Offline Cmt Dvc-100/Mo *
+    Microsoft	M365 G5 GCC Sub Per User
+    Microsoft	MD for IoT Agentless-Ent IoT *
+    Microsoft	Defender Endpoint P1 GCC Sub Per User 
+    Microsoft	Defender Vulnerability *
+    Microsoft	Defender Threat Intelligence *
+    Microsoft	Defender O365 *
+    Microsoft	M365 E5 Security Sub Per User
+
+
+[Checkboxes]
+question = What other CISA Approved Tools do you use or engage with?
+options = 
+    Absolute Secure Endpoint (Absolute Visibility, Absolute Control, Absolute Resilience)
+    Access and Identity Management
+    Access Management
+    ACF2
+    Advanced Data Security (DL)
+    Analyst1
+    Analytics
+    Appian Government Cloud (AGC)
+    Application Control
+    Application Controller
+    Application Security
+    AppScan
+    Arbor AED
+    ARMIS AFE
+    Aruba Clearpass
+    Asset
+    Attack Surface Intelligence
+    BigFix
+    Binary Armor SCADA Network Guard
+    Black Kite
+    BlackBerry Protect with Optics
+    BlackBerry UEM Enterprise Mobility Management
+    CASB
+    Case Management
+    Central Manager
+    Chainguard Images
+    Change Control
+    CimTrak
+    Cisco Firewalls
+    Cisco Umbrella
+    Cleanup
+    Cloud
+    Cloud Access Security Broker
+    Cloud Security
+    Cloudflare for Government
+    CloudLock
+    Collibra
+    Compliance Event Manager (CEM)
+    Comply
+    ConfigOS
+    Content Security
+    Core Platform
+    "Corelight Sensor - Network Detection and Response (Zeek Network Monitoring, Suricata IDS, Smart Packet Capture)"
+    Cortex XDR
+    Cortex Xpanse
+    Cribl Stream
+    Cryptographic Agility Management (CAM)
+    Cyber Fusion Center
+    Cyber Security & ERM
+    Cyber Security Asset Management
+    Cyber Vision
+    CyberRes
+    Data Backup and Archive
+    Data Classification Engine
+    Data Protection
+    Data Protection Management
+    Data Security Manager (DSM) Platform 
+    DatAdvantage
+    DBSS
+    Deception
+    Deep Security
+    Delinea Enterprise PAM
+    Deploy 
+    Development Operations and Security. (DevSecOps)
+    Digital Dexterity Solutions
+    Discover
+    Eclypsium Platform
+    EDR
+    Elastic Stack
+    Elastic Stack to include Elastic Cloud Enterprise, Elastic Cloud Kubernetes and Endgame
+    Email Security
+    Endpoint
+    Endpoint Breach Prevention
+    Endpoint Privilege Management
+    Endpoint Privileged Management Window and Mac
+    Endpoint Protection
+    Enforce
+    Enterprise Plus 
+    ENTERPRISE SECURITY
+    Enterprise Security Manager (ESM)
+    ETM (Enterprise Telephony Management) System
+    EX
+    Falcon Platform
+    Firewall
+    Firmware Vulnerability Platform
+    Fleet Premium
+    FortiAnalyzer
+    FortiGate
+    FortiManager
+    Forward Enterprise
+    GitLab Ultimate
+    Guardium Data Encryption
+    Guardium Data Protection
+    Hardware Access Control (HAC-1)
+    HTTP Traffic Secuirty
+    HYCU for Enterprise Clouds
+    IdenitityIQ (IIQ)
+    Identity and Access Management Suite
+    Identity and Access Management Suite 
+    Identity Gateway (IDIG)
+    Identity Services Engine
+    IGA
+    Illumio Core
+    Immuta Data Security Platform
+    Integrity Monitor
+    InTERCEPT
+    IT Service Intelligence
+    Ivanti Neurons for MDM
+    Lancope Security Products
+    Layer 2 Platform
+    Layer 7 API Gateway
+    Logger
+    Management
+    Map
+    Microsoft 365
+    Mist
+    Mobile Endpoint Security
+    Mobile Security
+    MTD
+    NetBackup
+    NetBrain Enterprise Edition
+    Network Detection & Response (NDR)
+    Network Security
+    Network Security Management
+    Networking
+    NextGen SIEM Platform
+    NFX
+    nGenius
+    nGeniusPULSE
+    Nipper
+    NodeZero
+    NowSecure Mobile App testing
+    NucleusGov
+    Nutanix Platform with Additional Modules
+    OnDMARC
+    OnTap
+    OT and IOT Security
+    Packet Flow Switch (PFS)
+    Password Safe
+    Patch
+    PC Matic Pro
+    Pega Cloud For Government Platform as a Service
+    Phantom Platform
+    Phantom Platform 
+    Phosphorus Enterprise xIoT Security Platform
+    PingFederate
+    Platform
+    PowerProtect DD
+    Prisma
+    Prisma Access
+    Privilege Management Unix/Linux
+    Privilege Remote Access
+    Privileged Access Management
+    Privileged Account Security
+    Privileged Remote Access
+    Product
+    Q-Audit
+    Q-Compliance
+    QRadar Security Info and Event Management
+    Qsuite
+    Qualys Gov Platform
+    RadiantOne
+    Red Hat Ansible Automation Platform
+    Red Hat Enterprise Linux (RHEL)
+    Remote Support
+    Reveal
+    Reveal (X)
+    Riverbed Network Observability Suite
+    RunCyberAssurance
+    runZero - Enterprise Edition
+    SD Elements
+    Secure Client
+    Secure Configuration Content
+    Secure Network Analytics
+    Security and Risk Management
+    Security Center
+    Security Management
+    Security Orchestration and Response
+    Security Orchestration Automation and Response
+    Security Ratings
+    ServiceNow Platform - Government  Community Cloud
+    Session Smart Networks
+    ShadowPlex
+    SIEM
+    Singularity Platform
+    Siren Platform
+    Snowflake Data Cloud Platform
+    Software Defined Networks
+    SPLUNK APP FOR ENTERPRISE SECURITY
+    SPLUNK ENTERPRISE
+    SPLUNK ENTERPRISE 
+    Stealth for Federal 
+    StorageGRID
+    Symantec Privileged Access Management
+    Tachyon
+    TAMZ
+    Tenable.ad
+    Tenable.io
+    Tenable.ot
+    The Platform
+    Threat Defense
+    Threat Intelligence
+    Threat Intelligence 
+    Threat Response
+    Threat Response Mitigation
+    Tines Automation
+    TippingPoint
+    Top Secret
+    Total Access Control
+    Trust Protection Platform
+    Umbrella
+    Unified Endpoint Management
+    US AI
+    User Behavior Analytics 
+    Vault Enterprise
+    VaultCore
+    Verve Security Center
+    Viakoo Action Platform
+    Visibility
+    VULNERABILITY INTELLIGENCE
+    Vulnerability Management Suite
+    Workforce & Customer Access
+    XSIAM
+    Zscaler Internet Access (ZIA)
+    Zscaler Private Access (ZPA)
+
+[Dropdown2]
+question = What CISA Approved Endpoint Detection & Response (EDR) Tool do you use?
+options = 
+    CrowdStrike	Falcon Control and Respond Tier *
+    CrowdStrike	Cloud Runtime Protection - On Demand
+    CrowdStrike	CWP Reserved License - Falcon Sensor
+    CrowdStrike	CWP Reserved License - Falcon Sensor - Tier *
+    CrowdStrike	CWP Reserved License - LUMOS Sensor
+    CrowdStrike	CWP Reserved License - LUMOS Sensor - Tier *
+    CrowdStrike	CWP On Demand - Falcon Sensor - Flex Bundle
+    CrowdStrike	CWP On Demand - LUMOS Sensor - Flex Bundle
+    CrowdStrike	CWP Reserved License - Falcon Sensor - Hard Bundle
+    CrowdStrike	CWP Reserved License - Falcon Sensor - Hard Bundle - Tier *
+    CrowdStrike	CWP Reserved License - LUMOS Sensor - Hard Bundle
+    CrowdStrike	CWP Reserved License - LUMOS Sensor - Hard Bundle - Tier *
+    CrowdStrike	CWP On Demand - Falcon Sensor - Hard Bundle
+    CrowdStrike	CWP On Demand - LUMOS Sensor - Hard Bundle
+    CrowdStrike	CWP On Demand Prepayment
+    CrowdStrike	CWP Upgrade Tier *
+    CrowdStrike	Discover for Cloud & Container - On Demand
+    CrowdStrike	Falcon Discover for Cloud & Containers Tier *
+    CrowdStrike	Falcon Device Control - Tier *
+    CrowdStrike	Falcon Discover - (Discovery Solution) - Band *
+    CrowdStrike	Falcon Discover on GovCloud - Band *
+    CrowdStrike	EDR Bundle (Insight + Discover) - Band *
+    CrowdStrike	EPP Advanced (Prevent + Insight + Discover) - Band *
+    CrowdStrike	EPP Advanced (Prevent + Insight + Discover) on GovCloud - Band *
+    CrowdStrike	Falcon Endpoint Protection Elite Bundle - Tier *
+    CrowdStrike	Falcon Endpoint Protection Elite Flexible Bundle - Tier *
+    CrowdStrike	Falcon Endpoint Protection Enterprise Flexible Bundle Tier *
+    CrowdStrike	Falcon Endpoint Protection Enterprise Bundle Tier *
+    CrowdStrike	Falcon Endpoint Protection Premium Flexible Bundle Tier *
+    CrowdStrike	Falcon Endpoint Protection Premium Bundle Tier *
+    CrowdStrike	Falcon Endpoint Protection Pro Flexible Bundle Tier *
+    CrowdStrike	EPP Standard (Prevent + Insight) on GovCloud - Band *
+    CrowdStrike	EPP Standard (Prevent + Insight) - Band *
+    CrowdStrike	Falcon X Premium Elite (25% of annual application total, $67,500 minimum)
+    CrowdStrike	Falcon Complete: Additional CID
+    CrowdStrike	Falcon Complete Subscription - On Demand
+    CrowdStrike	Falcon Complete Upgrade on GovCloud +300 - Tier *
+    CrowdStrike	Falcon Complete Upgrade - Tier *
+    CrowdStrike	Falcon Complete Upgrade on GovCloud <299
+    CrowdStrike	Falcon Complete Upgrade on GovCloud <299 - Tier 1
+    CrowdStrike	Falcon Complete Upgrade
+    CrowdStrike	Falcon Complete Upgrade Tier 1
+    CrowdStrike	Falcon X - On Demand
+    CrowdStrike	Falcon X Application - Tier *
+    CrowdStrike	Falcon for Mobile Extended on Gov Cloud - Tier *
+    CrowdStrike	Falcon for Mobile Extended - Tier *
+    CrowdStrike	Falcon for Mobile Extended Elite on Gov Cloud - Tier *
+    CrowdStrike	Falcon for Mobile Extended Elite - Tier *
+    CrowdStrike	Falcon for Mobile Extended Plus on Gov Cloud - Tier *
+    CrowdStrike	Falcon for Mobile Extended Plus - Tier *
+    CrowdStrike	Falcon for Mobile Extended Select on Gov Cloud - Tier *
+    CrowdStrike	Falcon for Mobile Extended Select - Tier *
+    CrowdStrike	Falcon for Mobile Standard on Gov Cloud - Tier *
+    CrowdStrike	Falcon for Mobile Standard - Tier 9
+    CrowdStrike	Falcon X Embedded Analyst
+    CrowdStrike	Falcon X Premium Application-Band *
+    CrowdStrike	Falcon Complete with Threat Graph Extended Elite on GovCloud +300 - Tier *
+    CrowdStrike	Falcon Complete with Server Threat Graph Extended Elite +300 - Tier *
+    CrowdStrike	Falcon Complete with Threat Graph Extended Elite +300 - Tier *
+    CrowdStrike	Falcon Complete with Threat Graph Extended Select on GovCloud +300 - Tier *
+    CrowdStrike	Falcon Complete with Server Threat Graph Extended Select on GovCloud +300 - Tier *
+    CrowdStrike	Falcon Complete with Server Threat Graph Extended Select +300 - Tier *
+    CrowdStrike	Falcon Complete with Threat Graph Extended Select +300 - Tier 9
+    CrowdStrike	Falcon Complete with Threat Graph Extended Plus on GovCloud +300 - Tier *
+    CrowdStrike	Falcon Complete with Server Threat Graph Extended Plus on GovCloud +300 - Tier *
+    CrowdStrike	Falcon Complete with Server Threat Graph Extended Plus +300 - Tier *
+    CrowdStrike	Falcon Complete w/Threat Graph Extended Plus. <299 - Tier *
+    CrowdStrike	Falcon Complete with Threat Graph Extended on GovCloud +300 - Tier *
+    CrowdStrike	Falcon Complete with Server Threat Graph Extended on GovCloud +300 - Tier 9
+    CrowdStrike	Falcon Complete with Server Threat Graph Extended +300 - Tier *
+    CrowdStrike	Falcon Complete w/Threat Graph Extended. +300 - Tier *
+    CrowdStrike	Falcon Complete with Threat Graph Standard on GovCloud +300 - Tier *
+    CrowdStrike	Falcon Complete with Server Threat Graph Standard on GovCloud +300 - Tier *
+    CrowdStrike	Falcon Complete with Server Threat Graph Standard +300 - Tier *
+    CrowdStrike	Falcon Complete w/Threat Graph Standard. +300 - Tier *
+    CrowdStrike	Falcon Complete with Threat Graph Extended Elite on GovCloud <299 *
+    CrowdStrike	Falcon Complete with Server Threat Graph Extended Elite on GovCloud <299
+    CrowdStrike	Falcon Complete with Server Threat Graph Extended Elite <299
+    CrowdStrike	Falcon Complete with Threat Graph Extended Elite <299
+    CrowdStrike	Falcon Complete with Threat Graph Extended Select on GovCloud <299
+    CrowdStrike	Falcon Complete with Server Threat Graph Extended Select on GovCloud <299
+    CrowdStrike	Falcon Complete with Server Threat Graph Extended Select <299
+    CrowdStrike	Falcon Complete with Threat Graph Extended Select <299
+    CrowdStrike	Falcon Complete with Threat Graph Extended Plus on GovCloud <299
+    CrowdStrike	Falcon Complete with Server Threat Graph Extended Plus on GovCloud <299
+    CrowdStrike	Falcon Complete with Server Threat Graph Extended Plus <299
+    CrowdStrike	Falcon Complete w/Threat Graph Extended Plus. <299
+    CrowdStrike	Falcon Complete with Threat Graph Extended on GovCloud <299
+    CrowdStrike	Falcon Complete with Server Threat Graph Extended on GovCloud <299
+    CrowdStrike	Falcon Complete with Server Threat Graph Extended <299
+    CrowdStrike	Falcon Complete w/Threat Graph Extended. <299
+    CrowdStrike	Falcon Complete with Threat Graph Standard on GovCloud <299
+    CrowdStrike	Falcon Complete with Server Threat Graph Standard on GovCloud <299
+    CrowdStrike	Falcon Complete with Server Threat Graph Standard <299
+    CrowdStrike	Falcon Complete w/Threat Graph Standard. <299
+    CrowdStrike	Falcon Cloud Workload Protection Tier *
+    CrowdStrike	Falcon Data Replicator
+    CrowdStrike	Falcon FileVantage Tier *
+    CrowdStrike	Falcon Firewall Management - On Demand
+    CrowdStrike	Falcon Firewall Management Tier *
+    CrowdStrike	Falcon Forensics with Console
+    CrowdStrike	Falcon Forensics 30 Day 12 Collections Tier *
+    CrowdStrike	Falcon Forensics ** Day ** Collections Tier *
+    CrowdStrike	Falcon Forensics - Falcon Data Replicator
+    CrowdStrike	Falcon Sandbox Full Standalone (On Premise) Sample Size up to * files per month
+    CrowdStrike	Falcon Sandbox Bridge
+    CrowdStrike	Remote Installation and configuration session. Price is per session.
+    CrowdStrike	Falcon Sandbox Full Standalone (On Premise) Sample Size Unlimited
+    CrowdStrike	Falcon Sandbox Private Cloud - Up to * files per month
+    CrowdStrike	Remote SSH access for intallation/upgrades. Price is per hour.
+    CrowdStrike	Falcon X Expansion Pack-* Files/Month
+    CrowdStrike	Falcon X Premium Elite (30% of price of Falcon X Premium)
+    CrowdStrike	Falcon X Premium Elite Dedicated
+    CrowdStrike	Falcon X Premium (up to * employees)
+    CrowdStrike	Falcon X Premium Public Sector (up to * team members)
+    CrowdStrike	Falcon X Premium RFI Pack
+    CrowdStrike	Falcon QuickScan ML - up to * files/month
+    CrowdStrike	Falcon X Recon Up to * Employees
+    CrowdStrike	Falcon X Recon+ Assigned Analyst (Employees) Up to * employees
+    CrowdStrike	Falcon X Recon Up to * Endpoints
+    CrowdStrike	Falcon X Recon+ Assigned Analyst (Endpoints) Up to * endpoints
+    CrowdStrike	Falcon Zero Trust Tier * (per Account)
+    CrowdStrike	Falcon Horizon
+    CrowdStrike	Falcon Horizon - Addon
+    CrowdStrike	Humio Essential Support
+    CrowdStrike	Humio Elite Support
+    CrowdStrike	Humio Express Support
+    CrowdStrike	CrowdStrike Humio Cloud (Daily Ingest Capacity) Tier *
+    CrowdStrike	Humio Cloud for Falcon - 13 month retention (quantity = endpoints) - Tier *
+    CrowdStrike	Humio Cloud For Falcon - 180 day retention Tier *
+    CrowdStrike	Humio Cloud for Falcon - 24 month retention (quantity = endpoints) - Tier *
+    CrowdStrike	Humio Cloud For Falcon - 30 day retention Tier *
+    CrowdStrike	Humio Cloud for Falcon - 36 month retention (quantity = endpoints) - Tier *
+    CrowdStrike	Humio Cloud For Falcon - ** day retention Tier *
+    CrowdStrike	Managed Humio Cloud Tier *
+    CrowdStrike	Managed Humio Cloud SMB
+    CrowdStrike	Managed Humio Cloud Upgrade Tier *
+    CrowdStrike	Humio Platform - 13 month retention
+    CrowdStrike	Humio Platform (180 Day Retention / Daily Ingest Capacity)
+    CrowdStrike	Humio Platform - 24 month retention
+    CrowdStrike	Humio Platform (30 Day Retention / Daily Ingest Capacity)
+    CrowdStrike	Humio Platform (365 Day Retention / Daily Ingest Capacity)
+    CrowdStrike	Humio Platform - 36 month retention
+    CrowdStrike	Humio Platform (60 Day Retention / Daily Ingest Capacity)
+    CrowdStrike	Humio Platform (90 Day Retention / Daily Ingest Capacity)
+    CrowdStrike	CrowdStrike Humio Self Hosted (Unlimited Ingest Capacity)
+    CrowdStrike	CrowdStrike Humio Self Hosted (Daily Ingest Capacity) Tier *
+    CrowdStrike	Humio Self Hosted for Falcon Tier *
+    CrowdStrike	Falcon Identity Threat Detection Tier * (per Account)
+    CrowdStrike	Crowdstrike Falcon Intelligence Expansion Pack - up to * Files/Month
+    CrowdStrike	Falcon Insight (EDR) on GovCloud - Band *
+    CrowdStrike	Falcon Insight (EDR) Application - Tier *
+    CrowdStrike	Falcon Intel Jumpstart
+    CrowdStrike	Crowdstrike Falcon Intelligence - On Demand
+    CrowdStrike	Crowdstrike Falcon Intelligence Application - Tier *
+    CrowdStrike	Crowdstrike Falcon Intelligence Embedded Analyst
+    CrowdStrike	Crowdstrike Falcon Intelligence Premium Application - Tier *
+    CrowdStrike	Crowdstrike Falcon Intelligence Premium Elite Dedicated
+    CrowdStrike	Crowdstrike Falcon Intelligence Premium Public Sector (up to * team members)
+    CrowdStrike	CrowdStrike Falcon Intelligence Premium RFI Pack
+    CrowdStrike	Crowdstrike Falcon Intelligence Recon Up to * Endpoints
+    CrowdStrike	Crowdstrike Falcon Intelligence Recon+ Assigned Analyst (Endpoints) Up to * endpoints
+    CrowdStrike	Identity Threat Protection (Accounts) - Tier *
+    CrowdStrike	Identity Threat Protection Complete Bundle on GovCloud Tier *
+    CrowdStrike	Identity Threat Protection Complete Bundle - Tier *
+    CrowdStrike	Identity Threat Protection Complete Upgrade on GovCloud Tier *
+    CrowdStrike	Identity Threat Protection Complete Upgrade (Accounts) - Tier *
+    CrowdStrike	Overwatch - On Demand
+    CrowdStrike	Falcon Overwatch Service - Band *
+    CrowdStrike	Falcon OverWatch Elite
+    CrowdStrike	Overwatch Elite
+    CrowdStrike	Falcon Overwatch Premium Service - Band *
+    CrowdStrike	Falcon Prevent for Home Use Tier *
+    CrowdStrike	Falcon Prevent (NGAV) Application - Band *
+    CrowdStrike	Falcon Prevent (NGAV) on GovCloud - Band *
+    CrowdStrike	Falcon Sandbox - Up to * files per month
+    CrowdStrike	Falcon Spotlight Application - Tier *
+    CrowdStrike	Falcon Surface - Tier *
+    CrowdStrike	Threat Graph Extended *
+    CrowdStrike	HPS Threat Graph Extended Elite
+    CrowdStrike	Threat Graph Extended Elite on Gov Cloud for Mobile
+    CrowdStrike	Threat Graph Extended Select on Gov Cloud for Mobile
+    CrowdStrike	Threat Graph with Data Replicator Extended Elite
+    CrowdStrike	Threat Graph Extended Elite on GovCloud with Data Replicator
+    CrowdStrike	Server Threat Graph with Data Replicator Extended Elite
+    CrowdStrike	Server Threat Graph Extended Elite on GovCloud with Data Replicator
+    CrowdStrike	Threat Graph with Data Replicator Extended Plus
+    CrowdStrike	Threat Graph Extended Plus on GovCloud with Data Replicator
+    CrowdStrike	Server Threat Graph with Data Replicator Extended Plus
+    CrowdStrike	Server Threat Graph Extended Plus on GovCloud with Data Replicator
+    CrowdStrike	Threat Graph with Data Replicator Extended Select
+    CrowdStrike	Threat Graph Extended Select on GovCloud with Data Replicator
+    CrowdStrike	Server Threat Graph with Data Replicator Extended Select
+    CrowdStrike	Server Threat Graph Extended Select on GovCloud with Data Replicator
+    CrowdStrike	Threat Graph with Data Replicator Extended
+    CrowdStrike	Threat Graph Extended on GovCloud with Data Replicator
+    CrowdStrike	Server Threat Graph with Data Replicator Extended
+    CrowdStrike	Server Threat Graph Extended on GovCloud with Data Replicator
+    CrowdStrike	Threat Graph with Data Replicator Standard
+    CrowdStrike	Threat Graph Standard on GovCloud with Data Replicator
+    CrowdStrike	Server Threat Graph with Data Replicator Standard
+    CrowdStrike	Server Threat Graph Standard on GovCloud with Data Replicator
+    CrowdStrike	Threat Graph Standard on Gov Cloud for Mobile
+    CrowdStrike	Falcon XDR ** Day Retention - Tier *
+    CrowdStrike	Falcon Insight XDR Native Connector, 7 day retention - Tier *
+    CrowdStrike	Falcon Insight XDR Email Connector, 7 day retention - Tier *
+    CrowdStrike	Falcon Insight XDR Firewall Standard Connector, 7 day retention - Tier *
+    CrowdStrike	Falcon Insight XDR Firewall Jumbo Connector, 7 day retention - Tier *
+    CrowdStrike	Falcon Insight XDR Identity/SSO Connector, 7 day retention - Tier *
+    CrowdStrike	Falcon Insight XDR NDR Standard Connector. 7 day retention - Tier *
+    CrowdStrike	Falcon Insight XDR NDR Jumbo Connector, 7 day retention - Tier *
+    CrowdStrike	Falcon Insight XDR SSE (SWG & CASB) Connector, 7 day retention - Tier *
+    CrowdStrike	Falcon Zero Trust Implementation Services
+    CrowdStrike	Falcon X Premium 5 RFI Pack
+    CrowdStrike	Falcon Complete With CWP (Commercial or EU) - Flex - Tier *
+    CrowdStrike	CWP Annual License - Falcon Sensor - Falcon Complete - Tier *
+    CrowdStrike	CWP Annual License - LUMOS Sensor - Falcon Complete - Tier *
+    CrowdStrike	CWP On Demand - Falcon Sensor - Falcon Complete- Flex
+    CrowdStrike	CWP On Demand - LUMOS Sensor - Falcon Complete- Flex
+    CrowdStrike	Falcon Cloud Workload Protection Threat Graph Extended *
+    CrowdStrike	G-Active Attack Assessment for * to * endpoints
+    CrowdStrike	Cloud Security Assessment in support of CrowdStrike Falcon Platform
+    CrowdStrike	Falcon Network Sensors (Corelight)
+    CrowdStrike	CrowdStrike Falcon Certification Program Exam Voucher
+    CrowdStrike	Implementation
+    CrowdStrike	1G Falcon Network Sensor in support of CrowdStrike Falcon Platform and CrowdStrike Falcon Network
+    CrowdStrike	G-1G Falcon Network Sensor
+    CrowdStrike	10G Falcon Network Sensor in support of CrowdStrike Falcon Platform and CrowdStrike Falcon Network
+    CrowdStrike	G-10G Falcon Network Sensor
+    CrowdStrike	G- Gold Standard Services * – * endpoint
+    CrowdStrike	Humio Operational Services - Fixed Price (DOW)
+    CrowdStrike	G-T1 Retainer
+    CrowdStrike	G-T2 Retainer
+    CrowdStrike	G-T3 Retainer
+    CrowdStrike	G-Professional Services- T&M Monthly Billing
+    CrowdStrike	Identity Security Assessment in support of CrowdStrike Falcon Platform
+    CrowdStrike	Virtual Falcon Network Sensor in support of CrowdStrike Falcon Platform and CrowdStrike Falcon Network
+    CrowdStrike	G-Virtual Falcon Network Sensor
+    CrowdStrike	G-Falcon Operational Support - T&M Custom SOW Only
+    CrowdStrike	Services Tools Fees in support of CrowdStrike Falcon Platform and Falcon Forensics Collector
+    CrowdStrike	G-Services Tools Fees
+    CrowdStrike	Cloud Collector Tool in support of CrowdStrike Cloud Security
+    CrowdStrike	CrowdStrike University Annual Subscription
+    CrowdStrike	G-Urgent Incident Response Services
+    CrowdStrike	G-0 to 4,999 endpoints ERS
+    CrowdStrike	G-5,000 + endpoints ERS
+    CrowdStrike	Endpoint Recovery Service (""ERS"")- * to * endpoints - Use of Falcon Platform and Recovery of Compromised Endpoint System (priced per month)
+    CrowdStrike	Platform Deployment & Operational Support in support of CrowdStrike Falcon Platform- Fixed Price
+    CrowdStrike	G-Platform Deployment & Operational Support - Fixed Price
+    CrowdStrike	Operational Resident Services- *
+    CrowdStrike	G- Operational Resident Services- *
+    CrowdStrike	Essential Support- 12% of Net Application Total
+    CrowdStrike	Elite Support
+    CrowdStrike	Express Support
+    CrowdStrike	Falcon MalQuery 100 searches per month
+    Microsoft	Defender Endpoint *
+    Microsoft	Defender O365 P1 GCC Sub Per User
+    Microsoft	Defender Endpoint Server *
+    Microsoft	Defender Endpoint P2 GCCH Sub *
+    Microsoft	M365 G5 Security GCC Sub *
+    Microsoft	M365 G5 Unified GCC w/o WDATP/DCA SU *
+    Microsoft	MD for IoT Agentless-OT Trl Trl Cmt Dvc-1K/Mo *
+    Microsoft	MD for IoT Agentless-OT Offline Cmt Dvc-100/Mo *
+    Microsoft	M365 G5 GCC Sub Per User
+    Microsoft	MD for IoT Agentless-Ent IoT *
+    Microsoft	Defender Endpoint P1 GCC Sub Per User 
+    Microsoft	Defender Vulnerability *
+    Microsoft	Defender Threat Intelligence *
+    Microsoft	Defender O365 *
+    Microsoft	M365 E5 Security Sub Per User
+
+[Textarea1]
+question = If you do not use a CISA Approved EDR Tool, what tool do you use?
+
+[Textarea2]
+question = Additonal comments or feedback?
