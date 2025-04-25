@@ -17,7 +17,6 @@ SECRETS_PATH = os.getenv("SECRETS_PATH")
 CONFIG_PATH = os.getenv("CONFIG_PATH")
 csv_path = os.path.join(CSV_PATH, "survey_results.csv")
 word_path = os.path.join(WORD_PATH, "survey_report.docx")
-st.write("SECRETS_PATH:", SECRETS_PATH)
 secrets = toml.load(os.path.join(SECRETS_PATH, "secrets.toml"))
 
 st.set_page_config(
