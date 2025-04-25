@@ -63,7 +63,7 @@ def generate_word_report(csv_path=csv_path, output_path=os.path.join(WORD_PATH, 
             doc.add_heading(f"Top Selections for: {col}", level=1)
 
             # For multiselect, explode them
-            if df[col].dropna().str.contains(",").any():
+            if df[col].dropna().astype(str).str.contains(",").fillna(False).any():
                 exploded = df[col].dropna().str.split(",").explode().str.strip()
                 counts = exploded.value_counts()
             else:
