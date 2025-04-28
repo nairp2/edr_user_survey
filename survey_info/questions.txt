@@ -1,5 +1,8 @@
+[Textarea1]
+question = **What data center do you belong to?**
+
 [Dropdown1]
-question = What Type of Endpoint do you use?
+question = **What CISA approved endpoint do you use? (Select all that apply)**
 options = 
     CrowdStrike	Falcon Control and Respond Tier *
     CrowdStrike	Cloud Runtime Protection - On Demand
@@ -271,10 +274,11 @@ options =
     Microsoft	Defender Threat Intelligence *
     Microsoft	Defender O365 *
     Microsoft	M365 E5 Security Sub Per User
+    None
 
 
 [Checkboxes]
-question = What other CISA Approved Tools do you use or engage with?
+question = **What other CISA Approved Tools do you engage with? (Select all that apply)**
 options = 
     Absolute Secure Endpoint (Absolute Visibility, Absolute Control, Absolute Resilience)
     Access and Identity Management
@@ -501,9 +505,10 @@ options =
     XSIAM
     Zscaler Internet Access (ZIA)
     Zscaler Private Access (ZPA)
+    None
 
 [Dropdown2]
-question = What CISA Approved Endpoint Detection & Response (EDR) Tool do you use?
+question = **What CISA Approved Endpoint Detection & Response (EDR) Tool do you use? (Select all that apply)**
 options = 
     CrowdStrike	Falcon Control and Respond Tier *
     CrowdStrike	Cloud Runtime Protection - On Demand
@@ -775,9 +780,66 @@ options =
     Microsoft	Defender Threat Intelligence *
     Microsoft	Defender O365 *
     Microsoft	M365 E5 Security Sub Per User
+    None
 
-[Textarea1]
-question = If you do not use a CISA Approved EDR Tool, what tool do you use?
+[Environment1]
+question = **What types of devices are covered by EDR tools in the Test Environment? (Select all that apply)**
+options = 
+    Workstations
+    Servers
+    Laptops
+    Thin Clients
+    Virtual Desktops
+    Virtual Machines
+    Tablets
+    Smartphones
+    Other Mobile Devices
+    None
+
+[Environment2]
+question = **What types of devices are covered by EDR tools in the Implementation Environment? (Select all that apply)**
+options = 
+    Workstations
+    Servers
+    Laptops
+    Thin Clients
+    Virtual Desktops
+    Virtual Machines
+    Tablets
+    Smartphones
+    Other Mobile Devices
+    None
+
+[Environment3]
+question = **What types of devices are covered by EDR tools in the Development Environment? (Select all that apply)**
+options = 
+    Workstations
+    Servers
+    Laptops
+    Thin Clients
+    Virtual Desktops
+    Virtual Machines
+    Tablets
+    Smartphones
+    Other Mobile Devices
+    None
+
+[Environment4]
+question = **What types of devices are covered by EDR tools in the Production Environment? (Select all that apply)**
+options = 
+    Workstations
+    Servers
+    Laptops
+    Thin Clients
+    Virtual Desktops
+    Virtual Machines
+    Tablets
+    Smartphones
+    Other Mobile Devices
+    None
 
 [Textarea2]
-question = Additonal comments or feedback?
+question = **If you do not use a CISA Approved Tool, what tool do you use?**
+
+[Textarea3]
+question = **Additonal comments or feedback?**
