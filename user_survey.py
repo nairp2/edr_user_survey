@@ -113,9 +113,10 @@ else:
                 options = []
 
             if section.startswith("Dropdown"):
-                options_with_placeholder = ["-- Please select an option --"] + options
-                selected = st.selectbox(question, options_with_placeholder)
-                responses[question] = "" if selected == "-- Please select an option --" else selected
+                # options_with_placeholder = ["-- Please select an option --"] + options
+                # selected = st.selectbox(question, options_with_placeholder)
+                #responses[question] = "" if selected == "-- Please select an option --" else selected
+                responses[question] = st.multiselect(question, options)
             elif section.startswith("Checkboxes"):
                 responses[question] = st.multiselect(question, options)
             elif section.startswith("Textarea"):
