@@ -153,6 +153,6 @@ if st.session_state.get("is_admin"):
         st.download_button(
             label="Download Survey Report",
             data=f,
-            file_name=word_path,
+            file_name="survey_report.docx",
             mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
         )
