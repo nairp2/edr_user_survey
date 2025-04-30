@@ -20,7 +20,7 @@ word_path = os.path.join(WORD_PATH, "survey_report.docx")
 secrets = toml.load(os.path.join(SECRETS_PATH, "secrets.toml"))
 
 st.set_page_config(
-    page_title="EDR Data Call User Survey",
+    page_title="CMS CDM Data Call for Endpoint Detection and Reporting",
     layout="centered",
     initial_sidebar_state="collapsed"
 )
@@ -80,7 +80,7 @@ st.markdown(
         <img src="data:image/png;base64,{}" width="150"/>
     </div>
     <div style='display: flex; justify-content: space-between; align-items: center;'>
-        <h1 style='text-align: center; padding-left: 60px;'>🌍 EDR Data Call User Survey</h1>
+        <h3 style='text-align: center;  padding-left: 20px; padding-top: 40px; font-size: 25px;'>🌍 CMS CDM Data Call for Endpoint Detection and Reporting</h1>
     </div>
     """.format(img_base64), 
     unsafe_allow_html=True

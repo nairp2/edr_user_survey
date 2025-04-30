@@ -1,5 +1,5 @@
 [Textarea1]
-question = **What data center do you belong to?**
+question = **What is the primary operating location of your system? (AWS Cloud, CDS, etc)**
 
 [Dropdown1]
 question = **What CISA Approved Endpoint Detection & Response (EDR) Tool do you use? (Select all that apply)**
@@ -277,7 +277,7 @@ options =
     None
 
 [Checkboxes]
-question = **What other CISA Approved Tools do you engage with? (Select all that apply)**
+question = **Are there other EDR tools being used in for ongoing authorization(OA) compliance and/or CDM reporting?**
 options = 
     Absolute Secure Endpoint (Absolute Visibility, Absolute Control, Absolute Resilience)
     Access and Identity Management
@@ -563,7 +563,7 @@ options =
     None
 
 [Textarea2]
-question = **If you do not use a CISA Approved Tool, what tool do you use?**
+question = **Are there any non-CISA tools being used for EDR? If yes, provide vendor name and current version.**
 
 [Textarea3]
 question = **Additonal comments or feedback?**
