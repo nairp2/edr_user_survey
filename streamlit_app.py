@@ -102,7 +102,7 @@ with col_c:
         logo_left, logo_right = st.columns([1, 3])
         with logo_right:
             if os.path.exists("logo.png"):
-                st.image("logo.png", width=250) 
+                st.image("logo.png", width=275) 
 # ----------------------------------------------------------------------
 # Survey form
 # ----------------------------------------------------------------------
