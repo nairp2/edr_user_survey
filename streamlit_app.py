@@ -109,28 +109,38 @@ with col_c:
 if page == "📝 Take Survey":
     st.markdown("<h1 style='text-align:center;'> EDR Data Call User Survey</h1>", unsafe_allow_html=True)
     st.markdown("""
-        <p style='text-align:center; color:#595959;'>
+            <div style="
+            color:#595959;
+            font-size:15px;
+            line-height:1.6;
+            ">
+            <p>
                 This data call is intended to gather all necessary container environment information
                 from customers to support the successful registration, configuration, and onboarding
                 of container workloads into the CrowdStrike Falcon platform.
-        </p>
+            </p>
 
-        <p style='text-align:center; color:#595959;'>
+            <p>
                 Please complete all sections in this survey as thoroughly as possible.
                 <strong>Incomplete submissions may delay onboarding timelines.</strong>
-        </p>
+            </p>
 
-        <p style='text-align:center; color:#595959;'>
+            <p>
                 For questions or assistance completing this survey, please contact the CMS CrowdStrike
                 Team at <strong>CCT@cms.hhs.gov</strong>. You may also contact the CRM PMO team at
                 <strong>cdmpmo@cms.hhs.gov</strong> for any additional questions or concerns you may have.
                 Thank you!
-        </p>
+            </p>
 
-        <p style='text-align:center; color:#595959;'>
+            <p style="
+                margin-top:20px;
+                padding-top:15px;
+                border-top:1px solid #D9D9D9;
+            ">
                 <strong>Note:</strong> This survey is anonymous — no names, emails, or other identifying
                 information are collected. Only your answers are stored.
-        </p>
+            </p>
+        </div>
         """,
         unsafe_allow_html=True,
     )
