@@ -101,7 +101,7 @@ col_l, col_c, col_r = st.columns([1, 2, 1])
 with col_c:
     if os.path.exists("logo.png"):
         st.markdown(
-            '<div style="margin-left: 60px;">', unsafe_allow_html=True
+            '<div style="margin-left: 80px;">', unsafe_allow_html=True
         )
         st.image("logo.png", width=250)
         st.markdown("</div>", unsafe_allow_html=True) 
@@ -110,7 +110,7 @@ with col_c:
 # Survey form
 # ----------------------------------------------------------------------
 if page == "📝 Take Survey":
-    st.markdown("<h1 style='text-align:center;'>📝 EDR Data Call User Survey</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align:center;'> EDR Data Call User Survey</h1>", unsafe_allow_html=True)
     st.markdown(
         "<p style='text-align:center; color:#595959;'>This survey is anonymous — no names, emails, "
         "or other identifying information are collected. Only your answers are stored.</p>",
