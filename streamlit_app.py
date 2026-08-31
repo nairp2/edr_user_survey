@@ -100,8 +100,11 @@ import os
 col_l, col_c, col_r = st.columns([1, 2, 1])
 with col_c:
     if os.path.exists("logo.png"):
-        st.image("logo.png", width=200)
- 
+        st.markdown(
+            '<div style="margin-left: 40px;">', unsafe_allow_html=True
+        )
+        st.image("logo.png", width=250)
+        st.markdown("</div>", unsafe_allow_html=True) 
  
 # ----------------------------------------------------------------------
 # Survey form
@@ -142,7 +145,7 @@ if page == "📝 Take Survey":
  
             st.write("")
  
-        submitted = st.form_submit_button("Submit Survey", use_container_width=True)
+        submitted = st.form_submit_button("Submit Survey")
  
     if submitted:
         missing = [
