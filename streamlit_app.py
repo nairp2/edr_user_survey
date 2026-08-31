@@ -155,7 +155,7 @@ if page == "📝 Take Survey":
             save_response(answers)
             st.cache_data.clear()
             st.success("Thanks — your response has been submitted successfully.")
-            st.toast()
+            st.balloons()
  
  
 # ----------------------------------------------------------------------
