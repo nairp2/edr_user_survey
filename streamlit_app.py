@@ -6,7 +6,7 @@ import colorsys
 from questions import QUESTIONS
 from db import init_db, save_response, get_all_responses, check_admin_login
  
-st.set_page_config(page_title="EDR Data Call User Survey", page_icon="📝", layout="wide")
+st.set_page_config(page_title="EDR Data Call User Survey", page_icon="", layout="wide")
 init_db()
  
 def shades_of(hex_color: str, n: int) -> list[str]:
@@ -100,7 +100,7 @@ import os
 col_l, col_c, col_r = st.columns([1, 2, 1])
 with col_c:
     if os.path.exists("logo.png"):
-        st.image("logo.png", use_container_width=True)
+        st.image("logo.png", widht=200)
  
  
 # ----------------------------------------------------------------------
@@ -187,7 +187,9 @@ elif page == "📊 Results" and st.session_state.is_admin:
         if qtype in ("dropdown", "radio"):
             counts = df[qid].dropna().value_counts().reindex(q["options"]).fillna(0)
             if chart_style == "Pie":
-                fig = px.pie(names=counts.index, values=counts.values, color_discrete_sequence=shades_of("#1F3864", len(counts)))
+                fig = px.pie(names=counts.index, values=counts.values, color_discrete_sequence=shades_of("#1F3864", len(counts)), hole=0.15)
+                fig.update_traces(textposition="inside", textinfo="percent+label", marker=dict(line=dict(color="white", width=2)))
+                fig.update_layout(showlegend=True, margin=dict(l=20, r=20, t=20, b=20))
                 st.plotly_chart(fig, use_container_width=True)
             else:
                 st.bar_chart(counts)
@@ -199,7 +201,9 @@ elif page == "📊 Results" and st.session_state.is_admin:
             else:
                 counts = exploded.value_counts()
                 if chart_style == "Pie":
-                    fig = px.pie(names=counts.index, values=counts.values, color_discrete_sequence=shades_of("#1F3864", len(counts)))
+                    fig = px.pie(names=counts.index, values=counts.values, color_discrete_sequence=shades_of("#1F3864", len(counts)), hole=0.15)
+                    fig.update_traces(textposition="inside", textinfo="percent+label", marker=dict(line=dict(color="white", width=2)))
+                    fig.update_layout(showlegend=True, margin=dict(l=20, r=20, t=20, b=20))
                     st.plotly_chart(fig, use_container_width=True)
                 else:
                     st.bar_chart(counts)
