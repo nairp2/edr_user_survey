@@ -190,7 +190,7 @@ elif page == "📊 Results" and st.session_state.is_admin:
                 fig = px.pie(names=counts.index, values=counts.values, color_discrete_sequence=shades_of("#1F3864", len(counts)), hole=0.15)
                 fig.update_traces(textposition="inside", textinfo="percent+label", marker=dict(line=dict(color="white", width=2)))
                 fig.update_layout(showlegend=True, margin=dict(l=20, r=20, t=20, b=20))
-                st.plotly_chart(fig, use_container_width=True)
+                st.plotly_chart(fig, width='stretch')
             else:
                 st.bar_chart(counts)
  
@@ -204,7 +204,7 @@ elif page == "📊 Results" and st.session_state.is_admin:
                     fig = px.pie(names=counts.index, values=counts.values, color_discrete_sequence=shades_of("#1F3864", len(counts)), hole=0.15)
                     fig.update_traces(textposition="inside", textinfo="percent+label", marker=dict(line=dict(color="white", width=2)))
                     fig.update_layout(showlegend=True, margin=dict(l=20, r=20, t=20, b=20))
-                    st.plotly_chart(fig, use_container_width=True)
+                    st.plotly_chart(fig, width='stretch')
                 else:
                     st.bar_chart(counts)
  
