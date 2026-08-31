@@ -109,7 +109,7 @@ with col_c:
 if page == "📝 Take Survey":
     st.markdown("<h1 style='text-align:center;'> EDR Data Call User Survey</h1>", unsafe_allow_html=True)
     st.markdown(
-        "<p style='text-align:center; color:#595959;'>This survey is anonymous — no names, emails, "
+        "<p style='text-align:center; color:#595959;'>Note: This survey is anonymous — no names, emails, "
         "or other identifying information are collected. Only your answers are stored.</p>",
         unsafe_allow_html=True,
     )
