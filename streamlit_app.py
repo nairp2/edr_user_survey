@@ -155,7 +155,8 @@ if page == "📝 Take Survey":
             save_response(answers)
             st.cache_data.clear()
             st.success("Thanks — your response has been submitted successfully.")
-            st.balloons()
+            st.snow()
+            st.info("Thank you. Your EDR Data Call response has been recorded.")
  
  
 # ----------------------------------------------------------------------
