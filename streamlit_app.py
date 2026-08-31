@@ -99,13 +99,10 @@ page = st.sidebar.radio("Navigate", nav_options)
 import os
 col_l, col_c, col_r = st.columns([1, 2, 1])
 with col_c:
-    if os.path.exists("logo.png"):
-        st.markdown(
-            '<div style="margin-left: 120px;">', unsafe_allow_html=True
-        )
-        st.image("logo.png", width=250)
-        st.markdown("</div>", unsafe_allow_html=True) 
- 
+        logo_left, logo_right = st.columns([1, 3])
+        with logo_right:
+            if os.path.exists("logo.png"):
+                st.image("logo.png", width=250) 
 # ----------------------------------------------------------------------
 # Survey form
 # ----------------------------------------------------------------------
