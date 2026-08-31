@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import colorsys
  
 from questions import QUESTIONS
 from db import init_db, save_response, get_all_responses, check_admin_login
@@ -8,6 +9,18 @@ from db import init_db, save_response, get_all_responses, check_admin_login
 st.set_page_config(page_title="EDR Data Call User Survey", page_icon="📝", layout="wide")
 init_db()
  
+def shades_of(hex_color: str, n: int) -> list[str]:
+    """Generate n shades of a single hue (light to dark) for a monochrome pie chart."""
+    hex_color = hex_color.lstrip("#")
+    r, g, b = (int(hex_color[i:i + 2], 16) / 255 for i in (0, 2, 4))
+    h, l, s = colorsys.rgb_to_hls(r, g, b)
+    shades = []
+    for i in range(max(n, 1)):
+        lightness = 0.82 - (0.82 - 0.25) * (i / max(n - 1, 1))
+        r2, g2, b2 = colorsys.hls_to_rgb(h, lightness, s)
+        shades.append("#{:02x}{:02x}{:02x}".format(int(r2 * 255), int(g2 * 255), int(b2 * 255)))
+    return shades
+
 # ----------------------------------------------------------------------
 # Light styling
 # ----------------------------------------------------------------------
@@ -174,7 +187,7 @@ elif page == "📊 Results" and st.session_state.is_admin:
         if qtype in ("dropdown", "radio"):
             counts = df[qid].dropna().value_counts().reindex(q["options"]).fillna(0)
             if chart_style == "Pie":
-                fig = px.pie(names=counts.index, values=counts.values)
+                fig = px.pie(names=counts.index, values=counts.values, color_discrete_sequence=shades_of("#1F3864", len(counts)))
                 st.plotly_chart(fig, use_container_width=True)
             else:
                 st.bar_chart(counts)
@@ -186,7 +199,7 @@ elif page == "📊 Results" and st.session_state.is_admin:
             else:
                 counts = exploded.value_counts()
                 if chart_style == "Pie":
-                    fig = px.pie(names=counts.index, values=counts.values)
+                    fig = px.pie(names=counts.index, values=counts.values, color_discrete_sequence=shades_of("#1F3864", len(counts)))
                     st.plotly_chart(fig, use_container_width=True)
                 else:
                     st.bar_chart(counts)
