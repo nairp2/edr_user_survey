@@ -101,7 +101,7 @@ col_l, col_c, col_r = st.columns([1, 2, 1])
 with col_c:
     if os.path.exists("logo.png"):
         st.markdown(
-            '<div style="margin-left: 80px;">', unsafe_allow_html=True
+            '<div style="margin-left: 120px;">', unsafe_allow_html=True
         )
         st.image("logo.png", width=250)
         st.markdown("</div>", unsafe_allow_html=True) 
