@@ -99,7 +99,7 @@ page = st.sidebar.radio("Navigate", nav_options)
 import os
 col_l, col_c, col_r = st.columns([1, 2, 1])
 with col_c:
-        logo_left, logo_right = st.columns([1, 3])
+        logo_left, logo_right = st.columns([2, 3])
         with logo_right:
             if os.path.exists("logo.png"):
                 st.image("logo.png", width=275) 
