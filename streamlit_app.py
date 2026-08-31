@@ -100,7 +100,7 @@ import os
 col_l, col_c, col_r = st.columns([1, 2, 1])
 with col_c:
     if os.path.exists("logo.png"):
-        st.image("logo.png", widht=200)
+        st.image("logo.png", width=200)
  
  
 # ----------------------------------------------------------------------
