@@ -114,7 +114,7 @@ if page == "📝 Take Survey":
             font-size:15px;
             line-height:1.6;
         ">
-
+        <br>
         Thank you for taking the time to share your input on the CRM Tableau dashboards. Your insights drive dashboard content and design helping us provide better tools for your work.
         <br>
 
