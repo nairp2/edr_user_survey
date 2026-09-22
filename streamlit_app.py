@@ -6,7 +6,7 @@ import colorsys
 from questions import QUESTIONS
 from db import init_db, save_response, get_all_responses, check_admin_login
  
-st.set_page_config(page_title="EDR Data Call User Survey", page_icon="", layout="wide")
+st.set_page_config(page_title="Tableau User Survey", page_icon="", layout="wide")
 init_db()
  
 def shades_of(hex_color: str, n: int) -> list[str]:
