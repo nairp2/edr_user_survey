@@ -107,7 +107,7 @@ with col_c:
 # Survey form
 # ----------------------------------------------------------------------
 if page == "📝 Take Survey":
-    st.markdown("<h1 style='text-align:center; font-size: 24px'> Cyber Risk Management (CRM) Tableau Dashboard User Survey</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align:center; font-size: 36px'> Cyber Risk Management (CRM) Tableau Dashboard User Survey</h1>", unsafe_allow_html=True)
     st.markdown("""
         <div style="
             color:#595959;
