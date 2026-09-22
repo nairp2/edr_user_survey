@@ -115,11 +115,7 @@ if page == "📝 Take Survey":
             line-height:1.6;
         ">
         <br>
-        Thank you for taking the time to share your input on the CRM Tableau dashboards. Your insights drive dashboard content and design helping us provide better tools for your work.
-        
-        <br>
-
-        <strong>Please complete all sections in this survey as thoroughly as possible.</strong>
+        Thank you for taking the time to share your input on the CRM Tableau dashboards. Your insights drive dashboard content and design helping us provide better tools for your work. <strong>Please complete all sections in this survey as thoroughly as possible.</strong>
 
         <br>
 
