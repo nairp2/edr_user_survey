@@ -6,7 +6,7 @@ import colorsys
 from questions import QUESTIONS
 from db import init_db, save_response, get_all_responses, check_admin_login
  
-st.set_page_config(page_title="Tableau User Survey", page_icon="", layout="wide")
+st.set_page_config(page_title="Cyber Risk Management (CRM) Tableau Dashboard User Survey", page_icon="", layout="wide")
 init_db()
  
 def shades_of(hex_color: str, n: int) -> list[str]:
@@ -107,7 +107,7 @@ with col_c:
 # Survey form
 # ----------------------------------------------------------------------
 if page == "📝 Take Survey":
-    st.markdown("<h1 style='text-align:center;'> Tableau User Survey</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align:center;'> Cyber Risk Management (CRM) Tableau Dashboard User Survey</h1>", unsafe_allow_html=True)
     st.markdown("""
         <div style="
             color:#595959;
@@ -115,16 +115,14 @@ if page == "📝 Take Survey":
             line-height:1.6;
         ">
 
-        Add survey description here
-
+        Thank you for taking the time to share your input on the CRM Tableau dashboards. Your insights drive dashboard content and design helping us provide better tools for your work.
         <br>
 
-        
         <strong>Please complete all sections in this survey as thoroughly as possible.</strong>
 
         <br>
 
-        For questions or assistance completing this survey, please contact the CMS CRM PMO Team at <strong>cdmpmo@cms.hhs.gov</strong> as well as any additional questions or concerns you may have.
+        For questions, concerns or assistance completing this survey, please contact the CMS CRM PMO Team at <strong>cdmpmo@cms.hhs.gov</strong>
         Thank you!
 
         <div style="
