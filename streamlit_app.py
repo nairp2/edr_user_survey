@@ -111,7 +111,7 @@ if page == "📝 Take Survey":
     st.markdown("""
         <div style="
             color:#595959;
-            font-size:15px;
+            font-size:12px;
             line-height:1.6;
         ">
 
