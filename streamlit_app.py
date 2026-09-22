@@ -115,20 +115,16 @@ if page == "📝 Take Survey":
             line-height:1.6;
         ">
 
-        This data call is intended to gather all necessary container environment information
-        from customers to support the successful registration, configuration, and onboarding
-        of container workloads into the CrowdStrike Falcon platform.
+        Add survey description here
 
         <br>
 
-        Please complete all sections in this survey as thoroughly as possible.
-        <strong>Incomplete submissions may delay onboarding timelines.</strong>
+        
+        <strong>Please complete all sections in this survey as thoroughly as possible.</strong>
 
         <br>
 
-        For questions or assistance completing this survey, please contact the CMS CrowdStrike
-        Team at <strong>CCT@cms.hhs.gov</strong>. You may also contact the CRM PMO team at
-        <strong>cdmpmo@cms.hhs.gov</strong> for any additional questions or concerns you may have.
+        For questions or assistance completing this survey, please contact the CMS CRM PMO Team at <strong>cdmpmo@cms.hhs.gov</strong> as well as any additional questions or concerns you may have.
         Thank you!
 
         <div style="
@@ -161,7 +157,7 @@ if page == "📝 Take Survey":
                 help_text = f"Start typing to filter — {n_opts} options available." if n_opts > 15 else None
                 answers[qid] = st.multiselect(label, q["options"], label_visibility="collapsed", help=help_text)
             elif qtype == "slider":
-                answers[qid] = st.slider(label, q.get("min", 0), q.get("max", 10), label_visibility="collapsed")
+                answers[qid] = st.slider(label, q.get("min", 0), q.get("max", 6), label_visibility="collapsed")
             elif qtype == "number":
                 answers[qid] = st.number_input(label, min_value=q.get("min", 0), max_value=q.get("max", 100), label_visibility="collapsed")
             elif qtype == "text_input":
