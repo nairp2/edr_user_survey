@@ -9,7 +9,7 @@ from sqlalchemy import create_engine, text
 def get_engine():
     db_url = st.secrets["DATABASE_URL"]
     if db_url.startswith("postgres://"):
-        db_url = db_url.replace("postgres://", "posgresql://", 1)
+        db_url = db_url.replace("postgres://", "postgresql://", 1)
     return create_engine(db_url, pool_pre_ping=True)
 
 def init_db() -> None:
