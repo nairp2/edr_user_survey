@@ -117,6 +117,7 @@ if page == "📝 Take Survey":
         <br>
         Thank you for taking the time to share your input on the CRM Tableau dashboards. Your insights drive dashboard content and design helping us provide better tools for your work. <strong>Please complete all sections in this survey as thoroughly as possible.</strong>
 
+        <strong>Disclaimer:</strong> Please do not enter any sensitive, confidential, proprietary, or system-specific information in your responses. This includes system names, usernames, passwords, account information, IP addresses, server details, security configurations, or other technical information that could identify or provide access to CMS systems or data.
         <br>
 
         For questions, concerns or assistance completing this survey, please contact the CMS CRM PMO Team at <strong>cdmpmo@cms.hhs.gov</strong>
